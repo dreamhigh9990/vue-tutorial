@@ -1,0 +1,81 @@
+div.nav-bar {
+    background-color: rgb(10, 171, 117);
+    height: 50px;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+div.product {
+    padding-top: 25px;
+    display: flex;
+}
+div.product-image {
+    padding-left: 10px;
+
+}
+div.product-info {
+    width: 200px;
+    padding-left: 50px;
+   
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+}
+
+a {
+    font-size: 20px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button1 {
+    background-color: rgb(19, 153, 237);
+    width: auto;
+    height: 25px;
+    border: 1px solid rgb(11, 165, 226);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 3px;
+}
+.button1:hover {
+  color: rgb(8, 8, 31);
+  border: 1px solid rgb(236, 228, 228);
+  border-radius: 3px;
+}
+.button2 {
+    background-color: rgb(19, 153, 237);
+    width: auto;
+    height: 25px;
+    border: 1px solid rgb(11, 165, 226);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.button2:hover {
+  color: rgb(8, 8, 31);
+  border: 1px solid rgb(236, 228, 228);
+  border-radius: 3px;
+}
+div.cart {
+    display: inline-grid;
+}
+
+.color-box {
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.disabledButton {
+    background-color: rgb(173, 199, 221);
+}
+
+.textDecoration {
+    text-decoration: line-through;
+}
